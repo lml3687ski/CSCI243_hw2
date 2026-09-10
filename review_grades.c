@@ -1,6 +1,20 @@
+/**
+ * @file review_grades.c
+ * @brief Parses c.l.a for positive integers and produces statistics on them
+ *
+ * @author Logan Larocque <lml3687@rit.edu>
+ * @course CSCI-243 Homework 2
+ */
+
 #include <stdio.h>
 #include <ctype.h>
 
+
+/**
+ * converts strings to integers if leading char is a digit
+ * @param str   a character array (string)
+ * @return -1  no leading digit  integer  converted integer from string 
+ */
 int str_to_int(const char *str){
     if(isdigit(str[0]) == 0){
         return(-1);
@@ -18,7 +32,13 @@ int str_to_int(const char *str){
     return value;
 }
 
-
+/**
+ * Handles input arguments and parses them for integers by calling
+ * str_to_int, produces statistics on remaining numbers by calling functions
+ * from stats.h
+ * @param argc  # of input arguments  argv[]  array of input arguments
+ * @return 0  successful execution  1  error
+ */
 int main(int argc, char *argv[]){
     
     if(argc == 1){
@@ -32,6 +52,7 @@ int main(int argc, char *argv[]){
     int adjusted_pop = 0;
     int pop[argc-1];
 
+    //parse input arguments, add relevant ones to pop array
     for (int i = 0; i<argc; i++){
         int num = str_to_int(argv[i]);
         if(num >= 0){
