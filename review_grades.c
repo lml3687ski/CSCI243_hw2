@@ -22,8 +22,8 @@ int str_to_int(const char *str){
 int main(int argc, char *argv[]){
     
     if(argc == 1){
-        printf("usage: review_grades score1 [score2 ...]\n");
-        printf("note: ignores negative score values.\n");
+        fprintf(stderr, "usage: review_grades score1 [score2 ...]\n");
+        fprintf(stderr, "note: ignores negative score values.\n");
 
         return(1);
     }
