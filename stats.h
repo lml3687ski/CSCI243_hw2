@@ -18,6 +18,9 @@
 /**
  * Compute the arithmetic mean (average) of a data set.
  * STUDENT TODO: document @param n, @param data, and @return.
+ * @param n The number of grades input by the user as an integer
+ * @param data An integer array of all of the grades
+ * @return Returns the mean of all grades in the data array as an integer
  */
 double average(int n, const int data[]);
 
@@ -25,6 +28,10 @@ double average(int n, const int data[]);
  * Compute the sample standard deviation: sqrt( sum((x - mean)^2) / (n - 1) ).
  * STUDENT TODO: document @param n, @param data, @param mean, and @return,
  * including the value returned when n < 2.
+ * @param n The integer number of grades input by the user
+ * @param data An integer array of all grades input by the user
+ * @param mean The mean value of the grades (int)
+ * @return 0.0 if n < 2, Otherwise returns the standard deviation of the data
  */
 double std_dev(int n, const int data[], double mean);
 
@@ -32,6 +39,8 @@ double std_dev(int n, const int data[], double mean);
  * Print the plus/minus grade histogram to standard output (see the manual for
  * the exact grade ranges and output format).
  * STUDENT TODO: document @param n and @param data.
+ * @param n Integer number of grades input by the user
+ * @param data Integer array of grades
  */
 void histogram(int n, const int data[]);
 
