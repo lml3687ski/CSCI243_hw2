@@ -6,7 +6,7 @@
  * STUDENT TODO: complete the documentation comments below (add @param and
  * @return descriptions where marked) as part of this assignment.
  *
- * @author <your name here> (<your-rit-username>@rit.edu)
+ * @author Logan Larocque (lml3687@rit.edu)
  * @course CSCI-243 Homework 2 (Statistics)
  */
 #ifndef STATS_H
