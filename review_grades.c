@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <ctype.h>
-
+#include "stats.h"
 
 /**
  * converts strings to integers if leading char is a digit
@@ -49,6 +49,10 @@ int main(int argc, char *argv[]){
     }
 
     int in_pop = argc - 1;
+
+    //prints input population
+    printf("input population: %d\n", in_pop);
+
     int adjusted_pop = 0;
     int pop[argc-1];
 
@@ -67,6 +71,22 @@ int main(int argc, char *argv[]){
     }
 
     //print adjusted population
-    printf("\n%d\n", adjusted_pop); 
+    printf("\nadjusted population: %d\n", adjusted_pop); 
 
+    double avg = average(adjusted_pop, pop);
+    //prints the mean
+    printf("mean: %f\n", avg);
+
+    //prints standard deviation
+    printf("std deviation: %g\n", std_dev(adjusted_pop, pop, avg));
+
+    //calls histogram which calculates and prints
+    histogram(adjusted_pop, pop);
+
+    return 0;
 }
+
+
+
+
+

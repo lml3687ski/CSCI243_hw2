@@ -12,7 +12,7 @@ double average(int n, const int data[]){
         value += data[i];
     }
     
-    return((double)(value/n));
+    return((double)value/(double)n);
 }
 
 
@@ -22,7 +22,7 @@ double std_dev(int n, const int data[], double mean){
         return(0.0);
     }
     
-    int sum = 0;
+    float sum = 0;
     for(int i = 0; i < n; i++){
         sum += ((data[i] - mean) * (data[i] - mean));
     }
@@ -66,7 +66,7 @@ void histogram(int n, const int data[]){
     }
 
     for(int i = 0; i < num_bins; i++){
-        printf("%s:%d", bins[i].grade, bins[i].amount);
+        printf("%s: %d\n", bins[i].grade, bins[i].amount);
     }
 
 }
