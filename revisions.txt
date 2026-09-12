@@ -1,0 +1,59 @@
+commit 26bc569c0c7d711504bd813332cc7bff0683fc76
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Fri Sep 11 22:29:59 2026 -0400
+
+    added comments to stats.c
+
+commit f113a0429eed12578d18cf2580f67abd6c1e8d26
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Thu Sep 10 21:53:58 2026 -0400
+
+    implemented the rest of review_grade.c and fixed stats.c
+
+commit d5d12ed9aa6a88f00329ef39db3adaf7056809fb
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Thu Sep 10 21:21:21 2026 -0400
+
+    updated stats.h
+
+commit 188a808e3fbb5588cf24237a8321903b335ebc6c
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Thu Sep 10 21:12:19 2026 -0400
+
+    added the histogram function to stats.c
+
+commit ef9dbd9e991084438f5008c3492533364b4a3a8c
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Thu Sep 10 20:26:38 2026 -0400
+
+    created stats.c and implemented average and std_dev
+
+commit 295530b6f2aa481b852efc96162423917fde2124
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Thu Sep 10 19:59:52 2026 -0400
+
+    added relevant comments to review_grades.c
+
+commit eaa3fb51b0d21a3e5fbdcfb5eb13c925cbecab19
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Thu Sep 10 19:46:12 2026 -0400
+
+    fixed output for no arguments case by using fprintf
+
+commit 6272e7f876a85b9656e2e38fab36a7a26116add7
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Thu Sep 10 19:40:06 2026 -0400
+
+    created review_grades.c, implemented command line parsing to get adjusted population
+
+commit 6d7b0b4e4f59f35cdf59f81ecd8774c6eb60048f
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Thu Sep 10 18:23:25 2026 -0400
+
+    Initial commit: supplied stats.h
+
+commit f6b7d88f754ed86cdc04e30fbc710cd65304183b
+Author: lml3687ski <lml3687@g.rit.edu>
+Date:   Thu Sep 10 18:20:41 2026 -0400
+
+    Initial commit
