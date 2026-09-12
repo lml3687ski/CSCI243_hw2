@@ -1,3 +1,15 @@
+commit daf7090410cff67077c6f43238eea0a89b0d1bdb
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Fri Sep 11 22:36:00 2026 -0400
+
+    updated comments on stats.c and review_grades.c
+
+commit 8207a759afe5490ba31880c26fc90fe52bc25d58
+Author: Logan Larocque <lml3687@rit.edu>
+Date:   Fri Sep 11 22:31:14 2026 -0400
+
+    added revisions.txt
+
 commit 26bc569c0c7d711504bd813332cc7bff0683fc76
 Author: Logan Larocque <lml3687@rit.edu>
 Date:   Fri Sep 11 22:29:59 2026 -0400
