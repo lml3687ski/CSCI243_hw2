@@ -1,6 +1,22 @@
+/**
+ * @file stats.c
+ * @brief Computes statistics on set of grades input by the user from the main file
+ *
+ * @author Logan Larocque <lml3687@rit.edu>
+ * @course CSCI-243 Homework 2
+ */
+
+
 #include <math.h>
 #include <stdio.h>
 
+
+
+/**
+ * Computees average of input data
+ * @param n Number of input values, data An array of input values
+ * @return double Average value
+ */
 double average(int n, const int data[]){
     if(n<1){
         return(0.0);
@@ -16,7 +32,11 @@ double average(int n, const int data[]){
 }
 
 
-
+/**
+ * Calaculates the standard deviation
+ * @param n # of grades, data Array of grades, mean The grade average
+ * @return double The standard deviation
+ */
 double std_dev(int n, const int data[], double mean){
     if(n<2){
         return(0.0);
@@ -30,7 +50,11 @@ double std_dev(int n, const int data[], double mean){
     return(sqrt(sum));
 }
 
-
+/**
+ * Prints number of grades in each letter grade category
+ * @param n # of grades, data Array of grades
+ * @return void
+ */
 void histogram(int n, const int data[]){
     
     const int num_bins = 10;
