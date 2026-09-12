@@ -14,7 +14,8 @@
 
 /**
  * Computees average of input data
- * @param n Number of input values, data An array of input values
+ * @param n Number of input values
+ * @param data An array of input values
  * @return double Average value
  */
 double average(int n, const int data[]){
@@ -34,7 +35,9 @@ double average(int n, const int data[]){
 
 /**
  * Calaculates the standard deviation
- * @param n # of grades, data Array of grades, mean The grade average
+ * @param n # of grades
+ * @param data Array of grades
+ * @param mean The grade average
  * @return double The standard deviation
  */
 double std_dev(int n, const int data[], double mean){
@@ -52,8 +55,8 @@ double std_dev(int n, const int data[], double mean){
 
 /**
  * Prints number of grades in each letter grade category
- * @param n # of grades, data Array of grades
- * @return void
+ * @param n # of grades
+ * @param data Array of grades
  */
 void histogram(int n, const int data[]){
     

@@ -36,8 +36,10 @@ int str_to_int(const char *str){
  * Handles input arguments and parses them for integers by calling
  * str_to_int, produces statistics on remaining numbers by calling functions
  * from stats.h
- * @param argc  # of input arguments  argv[]  array of input arguments
- * @return 0  successful execution  1  error
+ * @param argc  # of input arguments
+ * @param argv[]  array of input arguments
+ * @return 0  successful execution  
+ * @return 1  error
  */
 int main(int argc, char *argv[]){
     
